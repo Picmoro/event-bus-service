@@ -1,0 +1,25 @@
+{
+  "name": "event-bus-service",
+  "version": "1.0.0",
+  "description": "Basic implementation of service bus",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Picmoro/event-bus-service.git"
+  },
+  "author": "Jaime Zamora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Picmoro/event-bus-service/issues"
+  },
+  "homepage": "https://github.com/Picmoro/event-bus-service#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
